@@ -17,7 +17,6 @@ public class Food extends BaseObject{
         Random random = Const.random;
         setX(random.nextInt(100, Const.windowWidth-100));
         setY(random.nextInt(100, Const.windowHeight-100));
-
     }
 
     @Override
